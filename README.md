@@ -1,7 +1,7 @@
 <!-- Profile18ion Grid -->
 <div align="center">
 
-  <img src="https://profile18ion.vercel.app/api/generate/bento/intro?name=Champ18ion&subtext=AI%20Engineer" alt="Intro" width="800" />
+  <img src="https://profile18ion.vercel.app/api/generate/bento/intro?name=%F0%9F%99%8F%E0%A4%A8%E0%A4%AE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%87%20!%20It's%20Champ18ion&subtext=Building%20tech%20that%20matters%20...%20(maybe)" alt="Intro" width="800" />
 
   <img src="https://profile18ion.vercel.app/api/generate/bento/about?taglines=%E2%9C%8D%EF%B8%8FWriter%2C%F0%9F%8E%AE%20Gamer%2C%F0%9F%94%ADPhysics&status=SDE%40Triplehash&location=India%20%F0%9F%87%AE%F0%9F%87%B3" alt="About Me" width="800" style="margin-top: 4px;" />
 
