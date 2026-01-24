@@ -1,67 +1,19 @@
-
-
-###
-![OpBento](https://firebasestorage.googleapis.com/v0/b/smartkaksha-fe32c.appspot.com/o/opbento%2Fchamp18iond9f8a.png?alt=media)
-
+<!-- Profile18ion Grid -->
 <div align="center">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  <img src="https://img.shields.io/static/v1?message=Youtube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo"  />
-  <img src="https://img.shields.io/static/v1?message=Twitter&logo=twitter&label=&color=1DA1F2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="twitter logo"  />
+
+  <img src="https://profile18ion.vercel.app/api/generate/bento/intro?name=Champ18ion&subtext=AI%20Engineer" alt="Intro" width="800" />
+
+  <img src="https://profile18ion.vercel.app/api/generate/bento/about?taglines=%E2%9C%8D%EF%B8%8FWriter%2C%F0%9F%8E%AE%20Gamer%2C%F0%9F%94%ADPhysics&status=SDE%40Triplehash&location=India%20%F0%9F%87%AE%F0%9F%87%B3" alt="About Me" width="800" style="margin-top: 4px;" />
+
+  <img src="https://profile18ion.vercel.app/api/generate/bento/stats?username=champ18ion" alt="Stats" width="800" style="margin-top: 4px;" />
+
+  <div style="display: flex; gap: 4px; justify-content: center; margin-top: 4px; flex-wrap: wrap; max-width: 800px;">
+    <a href="https://twitter.com/champ18ion"><img src="https://profile18ion.vercel.app/api/generate/bento/social?type=twitter&handle=%40champ18ion" alt="twitter" width="398" /></a>
+    <a href="https://linkedin.com/in/champ18ionx"><img src="https://profile18ion.vercel.app/api/generate/bento/social?type=linkedin&handle=%2Fin%2Fchamp18ionx" alt="linkedin" width="398" /></a>
+    <a href="https://champ18ion.vercel.app"><img src="https://profile18ion.vercel.app/api/generate/bento/social?type=website&handle=champ18ion.vercel.app" alt="website" width="398" /></a>
+    <a href="https://youtube.com/@champ18ion"><img src="https://profile18ion.vercel.app/api/generate/bento/social?type=youtube&handle=%40champ18ion" alt="youtube" width="398" /></a>
+  </div>
+
+  <img src="https://profile18ion.vercel.app/api/generate/bento/tech?stack=javascript%2Cpython%2Ctypescript%2Creact%2Cnextdotjs%2Ctailwindcss%2Cnodedotjs%2Cexpress%2Cpostgresql%2Cmongodb%2Cmysql%2Cfirebase%2Csupabase%2Cdocker%2Cgit%2Cgithub%2Cfigma%2Cpostman%2Cvercel" alt="Tech Stack" width="800" style="margin-top: 4px;" />
+
 </div>
-
-###
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=champ18ion.champ18ion&"  />
-</div>
-
-
-###
-
-<h3 align="left">🛠 Language and tools</h3>
-
-###
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" height="40" alt="materialui logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" alt="firebase logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="40" alt="redux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="40" alt="npm logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="40" alt="markdown logo"  />
-</div>
-
-###
-
-<h3 align="left">🔥   My Stats :</h3>
-
-###
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=champ18ion&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
-</div>
-
-###
