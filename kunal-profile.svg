@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530" role="img" aria-label="Kunal Kumar developer profile">
+  <style>
+    @font-face { font-family: ConsolasFallback; src: local('Consolas'), local('Courier New'); }
+    text, tspan { white-space: pre; }
+    .mono { font-family: ConsolasFallback, Consolas, monospace; font-size: 14px; }
+    .portrait { fill: #c9d1d9; font-size: 14px; font-weight: 700; letter-spacing: 0; }
+    .heading { fill: #c9d1d9; font-weight: 700; }
+    .key { fill: #ffa657; }
+    .value { fill: #a5d6ff; }
+    .muted, .rule { fill: #616e7f; }
+  </style>
+  <rect width="985" height="530" rx="15" fill="#161b22"/>
+  <rect x="381" y="20" width="1" height="490" fill="#30363d"/>
+  <text class="mono portrait">
+    <tspan x="15" y="30"></tspan>
+    <tspan x="15" y="50">            ....'....'....</tspan>
+    <tspan x="15" y="70">          ......          ..''.</tspan>
+    <tspan x="15" y="90">     ..                       ''`_.</tspan>
+    <tspan x="15" y="110">    '.    .````````'''..        .'__</tspan>
+    <tspan x="15" y="130">   '`  .__kkrj||!||!;;::_,`'.     .`\</tspan>
+    <tspan x="15" y="150">  .`'`_j@@%kj|!;;;;;:::,,::;;;____'.,|</tspan>
+    <tspan x="15" y="170">   \:!%@%krjj|!!;;!;;:::,,,:;|k@@@%!`|</tspan>
+    <tspan x="15" y="190">   '|M%rrjjj||!!!!!!;:,,,,,:;!jk%@@@r|</tspan>
+    <tspan x="15" y="210">    |@krj|!;;:;;!!;:,```,,:::!jrkM%@|__.</tspan>
+    <tspan x="15" y="230">    |@kj!!;;,:;|j|!:,``,`,,,,:;!jk%%!%M\.</tspan>
+    <tspan x="15" y="250">   |@@kkrrj|jjrjrj!!;:,::;;;;!!|rk%r;||k|</tspan>
+    <tspan x="15" y="270">   .|@%%%krj|jj|j|;::,,:;;;!!!|jr%%r;|M|.</tspan>
+    <tspan x="15" y="290">    |@@krj|j!;;:::,,``''':!;;!!|jrM%k@//</tspan>
+    <tspan x="15" y="310">     \@%jjr::!!||;;:,,,,`'`;;;;!!|@/___</tspan>
+    <tspan x="15" y="330">     .\@Mkj,;||||;,,`,,,,'',::,,:!/.</tspan>
+    <tspan x="15" y="350">      .__k|,,!|j|;,``,,`. ...',!|%|..</tspan>
+    <tspan x="15" y="370">        ._\',,`...      .''`,,:!j%k_______</tspan>
+    <tspan x="15" y="390">        ___jjkkkj|!:,,,,,,,,,,:;|j|,:j%%%r_</tspan>
+    <tspan x="15" y="410">      __@@!:|rrkkkrj!!;::::::::;;j;'!j|j|;r</tspan>
+    <tspan x="15" y="430">    __@@@@j,rkrrrrj|!!;;;;;;;;;::`:|!!|rk;!</tspan>
+    <tspan x="15" y="450">____@@@%@jk,!kjrrrjj|!!!!!;;;;;;!k@@r||jr@j</tspan>
+    <tspan x="15" y="470">@@@@@@@M!rj%,;j|jjjjjjjj||!!!!jM@@@@%%rjrMM</tspan>
+    <tspan x="15" y="490">@@@@@@:@%!|jr,:jjrrkkkkrrrjjr@@@@@@@M%krjrr</tspan>
+    <tspan x="15" y="510">k@@@@;@@@%@j;;!jrrrkkkkk%kkkM@@@@@@M|!jj|jj</tspan>
+  </text>
+  <text class="mono">
+    <tspan x="405" y="42" class="heading">KUNAL@TRIPLEHASH</tspan><tspan class="rule"> ──────────────────────────────────────</tspan>
+    <tspan x="405" y="64" class="muted">. </tspan><tspan class="key">Role</tspan><tspan class="muted">: ..................... </tspan><tspan class="value">Founder · Full-stack Product Developer</tspan>
+    <tspan x="405" y="86" class="muted">. </tspan><tspan class="key">Based in</tspan><tspan class="muted">: ................. </tspan><tspan class="value">Ranchi, India</tspan>
+    <tspan x="405" y="108" class="muted">. </tspan><tspan class="key">Focus</tspan><tspan class="muted">: .................... </tspan><tspan class="value">MVPs, SaaS, Mobile Apps, AI Automation</tspan>
+    <tspan x="405" y="130" class="muted">. </tspan><tspan class="key">Availability</tspan><tspan class="muted">: ............. </tspan><tspan class="value">Open to meaningful product builds</tspan>
+    <tspan x="405" y="152" class="muted">.</tspan>
+    <tspan x="405" y="174" class="muted">. </tspan><tspan class="key">Stack.Frontend</tspan><tspan class="muted">: ........... </tspan><tspan class="value">React, Next.js, TypeScript, Tailwind</tspan>
+    <tspan x="405" y="196" class="muted">. </tspan><tspan class="key">Stack.Backend</tspan><tspan class="muted">: ............ </tspan><tspan class="value">Node.js, Express, FastAPI, REST APIs</tspan>
+    <tspan x="405" y="218" class="muted">. </tspan><tspan class="key">Stack.Mobile</tspan><tspan class="muted">: ............. </tspan><tspan class="value">React Native, Expo</tspan>
+    <tspan x="405" y="240" class="muted">. </tspan><tspan class="key">Data</tspan><tspan class="muted">: ..................... </tspan><tspan class="value">PostgreSQL, MySQL, MongoDB, Firebase</tspan>
+    <tspan x="405" y="262" class="muted">. </tspan><tspan class="key">Tools</tspan><tspan class="muted">: .................... </tspan><tspan class="value">Docker, GitHub Actions, Linux, n8n</tspan>
+    <tspan x="405" y="284" class="muted">.</tspan>
+    <tspan x="405" y="306" class="heading">CONTACT</tspan><tspan class="rule"> ──────────────────────────────────────────────</tspan>
+    <tspan x="405" y="328" class="muted">. </tspan><tspan class="key">Email</tspan><tspan class="muted">: .................... </tspan><tspan class="value">your-email@domain.com</tspan>
+    <tspan x="405" y="350" class="muted">. </tspan><tspan class="key">Website</tspan><tspan class="muted">: .................. </tspan><tspan class="value">your-domain.com</tspan>
+    <tspan x="405" y="372" class="muted">. </tspan><tspan class="key">GitHub</tspan><tspan class="muted">: ................... </tspan><tspan class="value">github.com/your-handle</tspan>
+    <tspan x="405" y="394" class="muted">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="muted">: ................. </tspan><tspan class="value">linkedin.com/in/your-handle</tspan>
+    <tspan x="405" y="416" class="muted">.</tspan>
+    <tspan x="405" y="438" class="heading">NOW BUILDING</tspan><tspan class="rule"> ─────────────────────────────────────────</tspan>
+    <tspan x="405" y="460" class="muted">. </tspan><tspan class="key">Triple Hash</tspan><tspan class="muted">: .............. </tspan><tspan class="value">Scalable digital products for businesses</tspan>
+    <tspan x="405" y="482" class="muted">. </tspan><tspan class="key">Specialties</tspan><tspan class="muted">: .............. </tspan><tspan class="value">Web apps · SaaS · Mobile · Automation</tspan>
+  </text>
+  <!-- Replace the four contact placeholder values above with your real public links. -->
+</svg>
