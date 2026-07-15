@@ -299,8 +299,9 @@ def main():
     base_dir = os.path.dirname(__file__)
     render_svg(os.path.join(base_dir, 'dark_mode.svg.tmpl'), os.path.join(base_dir, 'dark_mode.svg'), values)
     render_svg(os.path.join(base_dir, 'light_mode.svg.tmpl'), os.path.join(base_dir, 'light_mode.svg'), values)
+    render_svg(os.path.join(base_dir, 'terminal_mode_fixed.svg.tmpl'), os.path.join(base_dir, 'terminal_mode_fixed.svg'), values)
 
-    print('Wrote dark_mode.svg and light_mode.svg')
+    print('Wrote dark_mode.svg, light_mode.svg, and terminal_mode_fixed.svg')
     print('API calls this run:', QUERY_COUNT)
 
 
