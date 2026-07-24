@@ -5,17 +5,38 @@ import os
 
 import requests
 from dateutil import relativedelta
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 HEADERS = {'authorization': 'token ' + os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME']
 CACHE_PATH = os.path.join(os.path.dirname(__file__), 'cache', f'{USER_NAME}.json')
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0,
                'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
+RETRYABLE_STATUS_CODES = (429, 500, 502, 503, 504)
+
+RETRY_POLICY = Retry(
+    total=5,
+    connect=5,
+    read=5,
+    status=5,
+    backoff_factor=1,
+    status_forcelist=RETRYABLE_STATUS_CODES,
+    allowed_methods=frozenset({'POST'}),
+    respect_retry_after_header=True,
+    raise_on_status=False,
+)
+SESSION = requests.Session()
+SESSION.mount('https://', HTTPAdapter(max_retries=RETRY_POLICY))
 
 
 def simple_request(func_name, query, variables):
-    request = requests.post('https://api.github.com/graphql',
-                             json={'query': query, 'variables': variables}, headers=HEADERS)
+    request = SESSION.post(
+        'https://api.github.com/graphql',
+        json={'query': query, 'variables': variables},
+        headers=HEADERS,
+        timeout=30,
+    )
     if request.status_code == 200:
         return request
     raise Exception(func_name, 'failed with', request.status_code, request.text, QUERY_COUNT)
@@ -198,10 +219,7 @@ def recursive_loc(owner, repo_name, user_id, cursor=None, additions=0, deletions
         }
     }'''
     variables = {'repo_name': repo_name, 'owner': owner, 'cursor': cursor}
-    request = requests.post('https://api.github.com/graphql',
-                             json={'query': query, 'variables': variables}, headers=HEADERS)
-    if request.status_code != 200:
-        raise Exception('recursive_loc failed with', request.status_code, request.text, QUERY_COUNT)
+    request = simple_request(recursive_loc.__name__, query, variables)
     branch = request.json()['data']['repository']['defaultBranchRef']
     if branch is None:
         return 0, 0, 0
