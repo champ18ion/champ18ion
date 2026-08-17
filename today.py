@@ -136,7 +136,7 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None):
     if count_type == 'repos':
         return repos['totalCount']
     if count_type == 'stars':
-        total = sum(edge['node']['stargazers']['totalCount'] for edge in repos['edges'])
+        total = sum(edge['node']['stargazers']['totalCount'] for edge in repos['edges'] if edge['node'])
         if repos['pageInfo']['hasNextPage']:
             total += graph_repos_stars('stars', owner_affiliation, repos['pageInfo']['endCursor'])
         return total
@@ -185,6 +185,8 @@ def owned_repo_names(cursor=None, repos=None):
     data = request.json()['data']['user']['repositories']
     for edge in data['edges']:
         node = edge['node']
+        if node is None:
+            continue
         commit_count = 0
         if node['defaultBranchRef']:
             commit_count = node['defaultBranchRef']['target']['history']['totalCount']
